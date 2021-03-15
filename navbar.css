@@ -1,6 +1,7 @@
 :root {
     --navbar-colour: #ccffdd;
     --link-colour: #000000;
+    --link-hover-colour: #0f101a96;
 }
 
 body {
@@ -36,6 +37,10 @@ nav {
 .nav-item a {
     text-decoration: none;
     color: var(--link-colour);
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.nav-item a:hover {
+    color: var( --link-hover-colour);
 }
 .nav-logo {
     height: 50px;
